@@ -12,6 +12,14 @@
 
 </head>
 <body>
+	<style>
+		.form-control {
+			margin-top: 10px;
+		}
+		.btn-success {
+			margin-top: 10px;
+		}
+	</style>
 	<form class="form-inline">
 		<div class="form-group">
 			<label for="word">Значение:</label>
@@ -23,7 +31,9 @@
 		</div>
 		<button id="getcrypto" class="btn btn-primary">Получить шифр</button>
 	</form>
-	<h2 id="result"></h2>
+	<h2 id="result">RESULT</h2>
+	<button type="button" id="copy" class="btn btn-success">Copy</button>
+
 	<script src="scripts/main.js"></script>
 </body>
 </html>
